@@ -685,10 +685,6 @@ video {
   top: 2rem;
 }
 
-.top-1 {
-  top: 0.25rem;
-}
-
 .isolate {
   isolation: isolate;
 }
@@ -707,18 +703,6 @@ video {
 
 .z-20 {
   z-index: 20;
-}
-
-.-z-50 {
-  z-index: -50;
-}
-
-.z-50 {
-  z-index: 50;
-}
-
-.z-\[9999\] {
-  z-index: 9999;
 }
 
 .float-start {
@@ -3396,18 +3380,6 @@ h6 {
     position: absolute;
   }
 
-  .md\:sticky {
-    position: sticky;
-  }
-
-  .md\:top-1 {
-    top: 0.25rem;
-  }
-
-  .md\:flex {
-    display: flex;
-  }
-
   .md\:h-\[444px\] {
     height: 444px;
   }
@@ -3426,10 +3398,6 @@ h6 {
 }
 
 @media (min-width: 960px) {
-  .lg\:fixed {
-    position: fixed;
-  }
-
   .lg\:relative {
     position: relative;
   }
@@ -3440,10 +3408,6 @@ h6 {
 
   .lg\:top-0 {
     top: 0px;
-  }
-
-  .lg\:top-32 {
-    top: 8rem;
   }
 
   .lg\:z-50 {
@@ -3502,11 +3466,6 @@ h6 {
     padding-right: 50px;
   }
 
-  .lg\:px-\[0px\] {
-    padding-left: 0px;
-    padding-right: 0px;
-  }
-
   .lg\:pb-14 {
     padding-bottom: 3.5rem;
   }
@@ -3517,14 +3476,6 @@ h6 {
 }
 
 @media (min-width: 1330px) {
-  .xl\:absolute {
-    position: absolute;
-  }
-
-  .xl\:top-0 {
-    top: 0px;
-  }
-
   .xl\:mx-0 {
     margin-left: 0px;
     margin-right: 0px;
